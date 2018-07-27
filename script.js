@@ -1,9 +1,17 @@
+let test = (testing) => {
+    window.alert(testing);
+}
+
+test("hello");
+
 // var test = document.getElementById("test").addEventListener("click", popUp);
 
-// function popUp(){
+// function popUp() {
 //     document.getElementById("two").innerHTML = "Hello World";
 //     window.alert("hello");
 // }
+
+// popUp();
 
 // function Counter(i){
 //         for(i; i<10; i++){
@@ -61,21 +69,46 @@
 //     break;
 // }
 
-let size = 8;
+// let size = 8;
 
-let board = "";
+// let board = "";
 
-for (let y = 0; y < size; y++) {
-    for (let x = 0; x < size; x++) {
-        if ((x + y) % 2 == 0) {
-            board += " ";
-        } else {
-            board += "#";
-        }
-        console.log(y + x);
-    }
+// for (let y = 0; y < size; y++) {
+//     for (let x = 0; x < size; x++) {
+//         if ((x + y) % 2 == 0) {
+//             board += " ";
+//         } else {
+//             board += "#";
+//         }
+//         console.log(y + x);
+//     }
 
-    board += "\n";
-}
+//     board += "\n";
+// }
 
-console.log(board);
+// console.log(board);
+
+
+
+// let Pisgah = ["The", " Greatest", " National Forest"];
+
+// Pisgah[3] = "red";
+// console.log(Pisgah);
+
+// let Wilsons = new Array();
+// console.log(typeof Wilsons);
+// Wilsons[0] = "Trail";
+// Wilsons[1] = "Mtn Bike";
+// console.log(Wilsons[1]);
+
+// let list = [];
+
+// let addEntry = (event, ride) => {
+//     list.push({ event, ride });
+// }
+
+// let test = addEntry(["nuts"], "no");
+// test;
+
+// let selection = document.getElementById("thisOne");
+// selection.innerHTML(list);
