@@ -29,7 +29,27 @@ addEntry(["red", "Ragley", "Race Face", "Shimano XT"], true );
 
 for(let value of journal){
     document.write(value);
-    
 }
+
+//document.write(Math.max(10, 25, 30));
+
+// let theNumber = Number(prompt("Pick a number"));
+// if (!Number.isNaN(theNumber)) {
+//   document.write("Your number is" + theNumber);
+// } else {
+//     document.write("booooo hoooo");
+// }
+
+let number = 1;
+
+while(number <= 15){
+    document.write(number + " " + "<br>");
+    number ++;
+}
+
+// for(counter = 0; counter<=10; counter = counter +1){
+//     number = number *2;
+//     document.write(number + "<br>");
+// }
 
 
