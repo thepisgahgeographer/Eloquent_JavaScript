@@ -15,21 +15,21 @@
 //     components : ["XT Brakes" , "Zee Rear Der" , "Race Face Cranks"]
 // };
 
-// //document.write(fullSuspension.color + "<br>" + fullSuspension.components);
+//document.write(fullSuspension.color + "<br>" + fullSuspension.components);
 // document.write(Object.keys(fullSuspension));
 
 //Create an empty array and push parameters to it from the addEntry(function)
-let journal = [];
-let addEntry = (input)=>{
-    journal.push([input]);
-}
+// let journal = [];
+// let addEntry = (input)=>{
+//     journal.push([input]);
+// }
 
-addEntry(["red", "Ragley", "Race Face", "Shimano XT"], true );
-//document.write(journal);
+// addEntry(["red", "Ragley", "Race Face", "Shimano XT"], true );
+// //document.write(journal);
 
-for(let value of journal){
-    document.write(value);
-}
+// for(let value of journal){
+//     document.write(value);
+// }
 
 //document.write(Math.max(10, 25, 30));
 
@@ -40,16 +40,37 @@ for(let value of journal){
 //     document.write("booooo hoooo");
 // }
 
-let number = 1;
+// let number = 1;
 
-while(number <= 15){
-    document.write(number + " " + "<br>");
-    number ++;
-}
+// while(number <= 15){
+//     document.write(number + " " + "<br>");
+//     number ++;
+// }
 
 // for(counter = 0; counter<=10; counter = counter +1){
 //     number = number *2;
 //     document.write(number + "<br>");
 // }
 
+
+// let Commencal = {
+//     color: "red",
+//     brand: "comm",
+//     travel: 180,
+//     func:()=>{
+//         document.write(Commencal.color)
+//     }
+// };
+
+// Commencal.func();
+
+
+let test = "#";
+let num = 1;
+
+while(num < 10){
+  document.write(test + "<br>");
+  test+="#";
+  num++;
+}
 
